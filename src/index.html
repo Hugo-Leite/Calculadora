@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <script
+      src="https://kit.fontawesome.com/d26a78c6fe.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="conteiner">
+      <h1>Calculadora - JS</h1>
+      <section id="calculator">
+        <input type="text" id="input" maxlength="11" />
+
+        <section id="keys">
+          <button id="clean">C</button>
+          <button id="backspace">
+            <i class="fa-solid fa-delete-left"></i>
+          </button>
+          <button class="charKey" data-value=".">.</button>
+          <button class="charKey orange" data-value="/">
+            <i class="fa-solid fa-divide"></i>
+          </button>
+
+          <button class="charKey" data-value="7">7</button>
+          <button class="charKey" data-value="8">8</button>
+          <button class="charKey" data-value="9">9</button>
+          <button class="charKey orange" data-value="*">X</button>
+
+          <button class="charKey" data-value="4">4</button>
+          <button class="charKey" data-value="5">5</button>
+          <button class="charKey" data-value="6">6</button>
+          <button class="charKey orange" data-value="-">-</button>
+
+          <button class="charKey" data-value="1">1</button>
+          <button class="charKey" data-value="2">2</button>
+          <button class="charKey" data-value="3">3</button>
+          <button class="charKey orange" data-value="+">+</button>
+
+          <button class="charKey" data-value="0">0</button>
+          <button class="charKey" data-value="(">(</button>
+          <button class="charKey" data-value=")">)</button>
+          <button id="equal" class="orange">
+            <i class="fa-solid fa-equals"></i>
+          </button>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

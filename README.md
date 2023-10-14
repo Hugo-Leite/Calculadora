@@ -1,7 +1,3 @@
-# Calculadora
-
-calculadora simples desenvolvida em HTML, CSS e JavaScript.
-
 # Calculadora em JavaScript
 
 Este repositório contém o código-fonte de uma calculadora simples desenvolvida em HTML, CSS e JavaScript. Você pode usá-la para realizar operações matemáticas básicas, como adição, subtração, multiplicação e divisão.
